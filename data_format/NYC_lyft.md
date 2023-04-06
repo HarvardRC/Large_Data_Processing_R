@@ -55,7 +55,7 @@ York City Taxi & Limousine Commission.
 
 <br>
 
-<img src="figures/nyc-tlc-logo.png" width="40%" style="display: block; margin: auto;" />
+<img src="figures/png/nyc-tlc-logo.png" width="40%" style="display: block; margin: auto;" />
 
 <br>
 
@@ -80,7 +80,7 @@ files.
 
 <br>
 
-<img src="figures/file_format.png" width="100%" style="display: block; margin: auto;" />
+<img src="figures/png/file_format.png" width="100%" style="display: block; margin: auto;" />
 
 <br>
 
@@ -564,7 +564,7 @@ ggplot(wc_df, aes(x = wc, y = name)) +
         axis.text.y = element_text(size = 10))
 ```
 
-![](NYC_lyft_files/figure-gfm/unnamed-chunk-16-1.png)<!-- -->
+![](figures/png/wc_plot.png)<!-- -->
 
 ``` r
 performance_imp <- wc_df$wc[4] / wc_df$wc 
